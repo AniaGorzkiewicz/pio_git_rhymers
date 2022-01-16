@@ -5,12 +5,11 @@ import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 class RhymersDemo {
 
-
-    public static final int END_VALUE = 15;
-    public static final int BOUND = 20;
-    public static final int INT1 = 3;
-    public static final int FIRST_ELEM = 0;
-    public static final int SECOND_ELEM = 1;
+    private static final int END_VALUE = 15;
+    private static final int BOUND = 20;
+    private static final int INT1 = 3;
+    private static final int FIRST_ELEM = 0;
+    private static final int SECOND_ELEM = 1;
 
     public static void main(String[] args) {
         Rhymersfactory factory = new DefaultRhymersFactory();
