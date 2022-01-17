@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 // linijka 5, 8, 12, 12, 13
 public class HanoiRhymer extends DefaultCountingOutRhymer {
 
-    int totalRejected = 0;
+    private int totalRejected = 0;
 
     public int reportRejected() {
         return totalRejected;
