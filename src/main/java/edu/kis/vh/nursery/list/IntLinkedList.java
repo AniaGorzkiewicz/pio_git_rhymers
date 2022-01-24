@@ -1,6 +1,16 @@
 package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
+	private static class Node
+	{
+		public int value;
+		public Node prev, next;
+
+		public Node(int i) {
+			value = i;
+		}
+	}
+
 
 	public static final int ERRO_RETURN = -1;
 	private Node last;
@@ -45,4 +55,5 @@ public class IntLinkedList {
 	public void setLast(Node last) {
 		this.last = last;
 	}
+
 }
